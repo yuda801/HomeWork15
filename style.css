@@ -1,0 +1,48 @@
+#all {
+    margin-left: 15px;
+}
+
+table {
+    border: 1px ridge black;
+    margin: auto;
+}
+
+#first-name-output,
+#last-name-output {
+    min-width: 170px;
+    border: 1px ridge black;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 4px ridge purple;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+#btn-container {
+    /* text-align: center !important; */
+    align-items: center !important;
+    display: flex;
+}
+
+#color-and-show-numbers {
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+#range {
+    display: flex;
+    flex-direction: column;
+    width: fit-content !important;
+    align-items: center !important;
+}
+
+.center {
+    width: fit-content !important;
+}
